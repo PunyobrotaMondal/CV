@@ -1,61 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  <header>
-<div class="left_icon">
-<img src="image/logo.jpg" alt="logo">
-<h1> My Shop</h1>
-</div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left_icon">
+        <img src="image/logo.jpg" alt="logo" />
+        <h1>My Shop</h1>
+      </div>
 
-<div class="right_icon">
-<p> Call Us: +123 456 789 | Email: support@shopmate.com</p>
-</div>
-  </header>  
+      <div class="right_icon">
+        <p>Call Us: +123 456 789 | Email: support@shopmate.com</p>
+      </div>
+    </header>
 
-  <nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#deaks">Deals</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="#shop">Shop</a></li>
-<li><a href="#products">Products</a></li>
-<li><a href="#deaks">Deals</a></li>
-<li><a href="#categories">Categories</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+    <main>
+      <section class="hero_section">
+        <h1>Your One-Stop Shop for All Your Needs</h1>
+        <p>Shop the best deals on a variety of products!</p>
+        <button>Shop Now</button>
+      </section>
 
-  </nav>
+      <section class="company_feature">
+        <div class="para1">
+          <h1>Free Shipping</h1>
+          <p>Enjoy free shipping on orders over $50.</p>
+        </div>
 
-<main>
+        <div class="para1">
+          <h1>24/7 Support</h1>
+          <p>Our customar support is available round the click.</p>
+        </div>
 
-<section class="hero_section">
-    
-    <h1>Your One-Stop Shop for All Your Needs</h1>
-    <p>Shop the best deals on a variety of products!</p>
-    <button>Shop Now</button>
+        <div class="para1">
+          <h1>Money-back Guarantee</h1>
+          <p>Not satisfied with your purchase? We'll refund your money.</p>
+        </div>
 
-</section>
+        <div class="para1">
+          <h1>Secure Payments</h1>
+          <p>Your transactions are safe and secure with us.</p>
+        </div>
+      </section>
 
+      <section id="feature_product">
+        <h1>Featured Products</h1>
+        <div class="row_box">
+          <div class="product_box">
+            <img src="image/product1.jpg" alt="" />
+            <h2>Products 1</h2>
+            <p>$20</p>
+            <button>Add to chart</button>
+          </div>
 
+          <div class="product_box">
+            <img src="image/product2.jpg" alt="" />
+            <h2>Products 2</h2>
+            <p>$30</p>
+            <button>Add to chart</button>
+          </div>
 
+          <div class="product_box">
+            <img src="image/product3.jpg" alt="" />
+            <h2>Products 3</h2>
+            <p>$40</p>
+            <button>Add to chart</button>
+          </div>
+        </div>
+        <div id="column_box">
+          <img src="image/product4.jpg" alt="" />
+          <h2>Products 4</h2>
+          <p>$25</p>
+          <button>Add to chart</button>
+        </div>
+      </section>
+    </main>
 
-
-</main>
-
-
-
-
-<footer>
-
-
-
-</footer>
-
-</body>
+    <footer class="design_footer">
+      <p>&copy; 2024 MyShop. All Rights Reserved</p>
+    </footer>
+  </body>
 </html>

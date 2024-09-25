@@ -1,76 +1,233 @@
-body{
-    margin:0;
-    padding:0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 /*Designing the header section*/
 
-header{
-display:flex;
-justify-content:space-between;
-background-color:#333333;
-color:white;
-align-items:center;
-padding: 0px 10px;
-height: 56px;
-position:sticky;
-top:0;
-z-index:10;
-overflow:hidden;
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333333;
+  color: white;
+  align-items: center;
+  padding: 0px 10px;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
 }
 
-.left_icon{
-    display:flex;
-    align-items:center;
-
+.left_icon {
+  display: flex;
+  align-items: center;
 }
-.left_icon img{
-height:50px;
-width:50px;
-border-radius:50%;
-margin-right:15px;
+.left_icon img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
 }
 
 /*Designing the navigation bar*/
 
-nav{
-    background-color:#555555;
-    width:100%;
-    padding:10px 0px;
-    position:sticky;
-    top: 56px;
-    z-index:9;
-    overflow:hidden;
+nav {
+  background-color: #555555;
+  width: 100%;
+  padding: 10px 0px;
+  position: sticky;
+  top: 56px;
+  z-index: 9;
+  overflow: hidden;
 }
 
-nav ul{
-    list-style:none;
-    margin:0;
-    padding:0;
-    display:flex;
-    justify-content:center;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
-nav ul li{
-    margin:0px 45px;
+nav ul li {
+  margin: 0px 45px;
 }
 
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight:bold;
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/*Designing the hero section*/
+/*Designing the home page hero section*/
 
-.hero_section{
-    width: 100%;
-    height: 400px;
-    background-color: #e60001;
-    text-align: center;
-    padding-top: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.hero_section {
+  width: 100%;
+  height: 320px;
+  background-color: #e60001;
+  text-align: center;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero_section h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.hero_section p {
+  color: white;
+  height: 21px;
+  font-size: 18px;
+  margin-top: -6px;
+}
+
+.hero_section button {
+  padding: 8px 12px;
+  background-color: #ffffff;
+  color: #e60001;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/*Designing the company feature section*/
+
+.company_feature {
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.para1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.para1 h1 {
+  color: #e60001;
+  font-size: 17px;
+  padding-top: 30px;
+}
+
+.para1 p {
+  color: #222f3e;
+  font-size: 13px;
+}
+
+/* Designing the featured pproducts section*/
+
+#feature_product {
+  background-color: #f3f3f3;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#feature_product h1 {
+  text-align: center;
+  color: #1e272e;
+  font-size: 25px;
+  padding: 15px 0px;
+}
+
+.product_box {
+  height: 345px;
+  width: 360px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.product_box img {
+  height: 220px;
+  width: 320px;
+  margin-top: 20px;
+}
+
+.product_box h2 {
+  color: #485460;
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 21px;
+}
+
+.product_box p {
+  margin: 0;
+  color: #e60001;
+  padding: 4px;
+}
+
+.product_box button {
+  padding: 6px 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e60001;
+  color: white;
+}
+
+.row_box {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#column_box {
+  height: 345px;
+  width: 360px;
+  text-align: center;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#column_box img {
+  height: 220px;
+  width: 320px;
+  margin-top: 20px;
+}
+#column_box h2 {
+  color: #485460;
+  margin: 0px;
+  padding-top: 10px;
+  font-size: 21px;
+}
+
+#column_box p {
+  margin: 0;
+  color: #e60001;
+  padding: 4px;
+}
+
+#column_box button {
+  padding: 6px 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #e60001;
+  color: white;
+}
+
+/* Designning the footer section*/
+
+.design_footer {
+  background-color: #333333;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.design_footer p {
+  color: white;
+  font-weight: bold;
 }
